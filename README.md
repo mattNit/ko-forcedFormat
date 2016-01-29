@@ -1,6 +1,6 @@
 # ko-forcedFormat
 Forces the format of an observable to be to a pattern
-
+(The knockout version of https://github.com/firstopinion/formatter.js)
 
 ## Usage
 ```javascript
