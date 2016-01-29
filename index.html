@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="knockout.js"></script>
+</head>
+<body>
+
+  <input type="text" data-bind="textInput: value">
+
+  <script src="ko-forcedFormat.js"></script>
+  <script>
+    function ViewModel(){
+      var self = this;
+      self.value = ko.observable().extend({forceFormat: '(###)-###-####'});
+    }
+    ko.applyBindings(new ViewModel());
+  </script>
+</body>
+</html>
