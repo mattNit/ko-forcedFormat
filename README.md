@@ -1,8 +1,7 @@
-# DEPRICATED
-Please see ko-formatter for newer version
+# Depricated
+This project is old, please see [ko-formatter](https://github.com/matthewnitschke/ko-formatter) for better version
 
 ## ko-forcedFormat
-
 
 ko-forcedFormat is a simple knockout js extender that originated from firstopinion's javascript plugin (found here:  https://github.com/firstopinion/formatter.js)
 
